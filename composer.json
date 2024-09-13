@@ -9,6 +9,6 @@
     "drupal/flexible_permissions": "^2.0"
   },
   "replace": {
-    "drupal/flexible_permissions": "^1.0"
+    "drupal/flexible_permissions": "1.*"
   }
 }
