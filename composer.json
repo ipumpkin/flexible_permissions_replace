@@ -1,14 +1,33 @@
 {
-  "name": "ipumpkin/flexible_permissions_replace",
-  "description": "Replace flexible_permissions 1.x to 2.x.",
-  "type": "library",
-  "keywords": ["drupal"],
-  "homepage": "https://www.drupal.org/project/flexible_permissions",
-  "license": "GPL-2.0-or-later",
-  "require": {
-    "drupal/flexible_permissions": "^2.0"
-  },
+  "name": "ipumpkin/flexible_permissions",
+  "type": "drupal-module",
+  "description": "This module allows you to gather, calculate and cache permissions from a myriad of sources",
+  "homepage": "http://drupal.org/project/flexible_permissions",
   "replace": {
     "drupal/flexible_permissions": "1.*"
+  },
+  "authors": [
+    {
+      "name": "Kristiaan Van den Eynde",
+      "homepage": "https://www.drupal.org/u/kristiaanvandeneynde",
+      "role": "Maintainer"
+    },
+    {
+      "name": "Mathias Wächter",
+      "homepage": "https://www.drupal.org/u/mef",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "issues": "https://drupal.org/project/issues/flexible_permissions",
+    "source": "https://git.drupalcode.org/project/flexible_permissions"
+  },
+  "license": "GPL-2.0-or-later",
+  "minimum-stability": "dev",
+  "require": {
+    "drupal/core": "^10.3"
+  },
+  "require-dev": {
+    "jangregor/phpstan-prophecy": "^1.0"
   }
 }
