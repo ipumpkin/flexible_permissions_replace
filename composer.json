@@ -1,0 +1,14 @@
+{
+  "name": "ipumpkin/flexible_permissions_replace",
+  "description": "Replace flexible_permissions 1.x to 2.x.",
+  "type": "library",
+  "keywords": ["drupal"],
+  "homepage": "https://www.drupal.org/project/flexible_permissions",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "drupal/flexible_permissions": "^2.0"
+  },
+  "replace": {
+    "drupal/flexible_permissions": "^1.0"
+  }
+}
